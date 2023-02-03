@@ -20,4 +20,4 @@ RUN apt-get clean && rm -rf /var/lib/apt/lists/*
 # Set directory permissions
 RUN chown -R 1000:1000 /var/www
 
-WORKDIR /var/www
+WORKDIR /var/www/server
